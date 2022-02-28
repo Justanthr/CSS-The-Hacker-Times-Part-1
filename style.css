@@ -1,1 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+html {
+  background-color: lightgray;
+}
+
+body {
+  background-color: white;
+  text-align: center;
+  margin: 1em 2em;
+  border-radius: 2%;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+header {
+  font-family: "Work Sans", sans-serif;
+  padding-top: 1em;
+}
+
+.date {
+  text-align: left;
+  padding-left: 2em;
+}
+
+nav {
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+nav li {
+  list-style: none;
+  display: inline;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  padding: 1em;
+}
+
+main {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+main h5 {
+  margin-right: 41em;
+  color: red;
+}
+
+.more-articles section {
+  width: 40%;
+  display: inline-block;
+  padding: 1em;
+}
