@@ -5,7 +5,7 @@ html {
 body {
   background-color: white;
   text-align: center;
-  margin: 1em 2em;
+  margin: 2em 12em;
   border-radius: 2%;
   font-family: "PT Sans Narrow", sans-serif;
 }
@@ -17,10 +17,17 @@ header {
 
 .date {
   text-align: left;
-  padding-left: 2em;
+  position: relative;
+  left: 2em;
 }
 
 nav {
+  /* having the nav stay at the top of the screen when scrolling */
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color: white;
+  /* Adding border to match  look */
   border-top: 1px solid rgba(0, 0, 0, 0.25);
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
@@ -37,15 +44,61 @@ li {
 }
 
 main {
+  width: 80%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  position: relative;
+  left: 5em;
 }
 main h5 {
-  margin-right: 41em;
+  position: relative;
+  right: 21em;
   color: red;
+}
+main p {
+  padding: 1em 0em;
 }
 
 .more-articles section {
-  width: 40%;
+  width: 20%;
   display: inline-block;
   padding: 1em;
+}
+.more-articles img {
+  width: 95%;
+}
+
+.footer {
+  border-top: dotted 2px rgba(0, 0, 0, 0.25);
+}
+.footer h2 {
+  text-align: left;
+  position: relative;
+  left: 2em;
+  font-family: "Kaushan Script", cursive;
+}
+.footer section {
+  width: 30%;
+  display: inline-block;
+  padding-bottom: 5em;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+.footer li {
+  list-style: none;
+  position: relative;
+  right: 1.25em;
+}
+.footer-news {
+  position: relative;
+  bottom: 10.8em;
+}
+.contact-us {
+  position: relative;
+  bottom: 8em;
+}
+
+.thanks {
+  padding-bottom: 1em;
 }
